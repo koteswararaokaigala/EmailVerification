@@ -6,10 +6,14 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+  2.4.5
 
 * System dependencies
-
+  Linux Mint 19 
+  
 * Configuration
+
+  PostgreSQL 9.4.26
 
 * Database creation
 
