@@ -42,8 +42,8 @@ config.action_mailer.smtp_settings = {
       :port           => "587",
       :domain         => 'smtp.gmail.com',
       :authentication => :login,
-      :user_name      => "koteswararaokaigala@gmail.com",
-      :password       => "8500844039@9666950626"
+      :user_name      => "email@gmail.com",
+      :password       => "emailpassword"
 }
 
   config.action_mailer.perform_caching = false
