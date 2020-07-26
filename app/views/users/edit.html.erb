@@ -1,0 +1,18 @@
+<fieldset class="FormCenter">
+<%= form_for :user, url: { controller: "users", action: "update_password"}, method: :put do |f| %>
+<table class="App">
+		 Hello <%= @user.first_name %> <%= @user.last_name%> Please update your password here<br>
+<tr>
+	<td>Password:</td>
+	<td><%= f.password_field :password_digest %></td>
+</tr>
+<tr>
+	<td>Update:</td>
+	<td><%= button_tag :submit  %></td>
+</tr>
+</table>
+
+<% end %>
+</fieldset>
+
+

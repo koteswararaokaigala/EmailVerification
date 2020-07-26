@@ -1,0 +1,39 @@
+
+<fieldset class="FormCenter">
+	<%= form_for :user, url: { controller: "users", action: "create"}, method: :post do |f| %>
+
+	<table class="App">
+		<tr>
+			<h2>Welcome</h2>
+		</tr>
+	
+	<tr>
+		<td>First Name:</td>
+		<td><%= f.text_field :first_name %></td>
+	</tr>
+	<tr>
+		<td>Last Name:</td>
+		<td><%= f.text_field :last_name %></td>
+	</tr>
+	<tr>
+		<td>Email:</td>
+		<td><%= f.email_field :email %></td>
+
+	</tr>
+	<tr>
+		<td>City:</td>
+		<td><%= f.text_field :city%></td>
+    </tr>
+    <tr>
+        <td>Sign up:</td>
+        <td><%= button_tag :submit  %></td>
+	</tr>
+
+</table>
+<% end %>
+
+</fieldset>
+
+
+
+ 

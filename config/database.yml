@@ -1,0 +1,25 @@
+development:
+ adapter: postgresql
+ encoding: unicode
+ database: july_24_2020_development
+ pool: 5
+ username: postgres
+ password: postgres
+
+test:
+ adapter: postgresql
+ encoding: unicode
+ database: july_24_2020_test
+ pool: 5
+ username: postgres
+ password: postgres
+
+
+production:
+ adapter: postgresql
+ encoding: unicode
+ database: july_24_2020_production
+ pool: 5
+ username: postgres
+ password: postgres
+

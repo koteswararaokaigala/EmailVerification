@@ -1,0 +1,2 @@
+class VerifyEmail < ApplicationRecord
+end
